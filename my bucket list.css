@@ -1,0 +1,32 @@
+header div{
+    padding-top: 30px;
+}
+header+div{
+    font-style: italic;
+}
+#Bahamas {
+    padding-top: 50px;
+}
+#ba img, #sc img, #to img, #ha img, #lo img{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+}
+#lo, #ha, #to, #sc, #ba{
+    display: flex;
+    gap: 30px;
+    padding-bottom: 100px;
+}
+#Bahamas, #Scandinavia, #Tokyo, #Hawaii, #London{
+    display: flex;
+    gap: 100px;
+}
+#Bahamas div:first-of-type, #Scandinavia div:first-of-type, #Tokyo div:first-of-type, #Hawaii div:first-of-type, #London div:first-of-type{
+    padding-top: 90px;
+    font-weight: bold;
+    font-style: italic;
+}
+.menu:first-of-type nav{
+    margin-top: -130px;
+    padding-bottom: 70px;
+}

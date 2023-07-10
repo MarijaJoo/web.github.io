@@ -1,0 +1,30 @@
+/*For the same things in every html page*/
+body{
+    height: 1000px;
+    width: 1000px;
+    margin: auto;
+    background-color: #000033;
+}
+.menu nav a{
+    text-decoration: none;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.menu nav a:not(a:last-of-type){
+    border-right: 1px red solid;
+}
+#Logo img{
+    height: 200px;
+    width: 200px;
+}
+.menu nav{
+   display: flex;
+   padding-left: 300px;
+}
+div, a, p{
+    color: white;
+}
+.menu nav a:hover{
+    color: red;
+}
